@@ -17,9 +17,19 @@ ion-icon {
     font-size: 1.5rem;
 }
 
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+}
 
 
-
+/* shared styles ends */
 
 
 /* nav related styles */
@@ -47,3 +57,35 @@ ul > li {
     color: var(--dark-colors);
     font-weight: 600;
 }
+/* nav related styles ends */
+
+
+/* banner ralated styles */
+.banner-container {
+    background-image: url('/assets/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 3.3rem;
+    width: 80%;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.description {
+    width: 80%;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 1.5rem;
+}
+/* banner ralated styles ends */
